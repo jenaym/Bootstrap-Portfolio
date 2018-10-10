@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    background-image: url('../images/gravel.png');
+    background-attachment: fixed;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 30px;
+    line-height: 49px;
+    font-weight: 700;
+  }
+
+ul {
+    list-style-type: circle;
+    margin-left: 30px;
+}
+
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -66px;
+}
+
+.footer-section, .push {
+    height: 66px;
+}
+
+
+a:link, a:visited {
+    color: inherit;
+}
+
+.navbar {
+    background-color: #ffffff;
+    height: 90px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    border-bottom: 1px solid #cccccc;
+}
+
+.navbar-brand h1 {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 300px;
+    padding: 25px 0px;
+    text-align: center;
+    
+}
+
+.content-container {
+    /* max-width: 960px;
+    margin: 0 auto; */
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    margin-bottom: 40px;
+    padding: 30px;
+}
+
+.page-header h1 {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    border-bottom: 3px solid #dddddd;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+
+}
+
+#headshot {
+    width: 180px;
+    height: 200px;
+    float: left;
+    margin-right: 20px;
+}
+
+#content {
+    line-height: 28px;
+}
+
+
+
+.footer-section {
+    /* clear: both; */
+    background-color: #666666;
+    /* min-width: 100%; */
+    height: 66px;
+    /* float: left; */
+    border-top: 8px solid #4aaaa5;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 45px;
+    font-size: 10px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    border: 1px solid #dddddd;
+    box-sizing: border-box;
+    resize: vertical;
+    margin-top: 4px;
+    padding: 7px;
+
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 16px;
+    width: 114px;
+    height:42px;
+}
+
+.column {
+    float: left;
+    position: relative;
+    margin-right: 30px;
+    
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#puppy1, #puppy2, #puppy3, #puppy4 {
+    width: 275px;
+    height: 210px;
+    margin-bottom: 30px;
+}
+
+#puppy5 {
+    width: 275px;
+    height: 210px;
+}
+
+
+button {
+    position: absolute;
+    bottom: 20%;
+    left: 0%;
+    width: 275px;
+    height:  25%;
+    background-color: #4aaaa5;
+    border-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#RPS {
+    position: absolute;
+    bottom: 10%;
+    height: 30%;
+}
+
+
+
