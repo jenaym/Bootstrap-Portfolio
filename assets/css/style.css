@@ -2,12 +2,14 @@
     box-sizing: border-box;
 }
 
+
 body {
     height: 100%;
     background-image: url('../images/gravel.png');
     background-attachment: fixed;
     margin: 0 auto;
 }
+
 
 h1 {
     font-size: 30px;
@@ -24,16 +26,6 @@ ul {
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
 }
-
-.wrapper {
-    min-height: 100%;
-    margin-bottom: -66px;
-}
-
-.footer-section, .push {
-    height: 66px;
-}
-
 
 a:link, a:visited {
     color: inherit;
@@ -58,12 +50,11 @@ a:link, a:visited {
 }
 
 .content-container {
-    /* max-width: 960px;
-    margin: 0 auto; */
     background-color: #ffffff;
     border: 1px solid #dddddd;
     margin-bottom: 40px;
     padding: 30px;
+
 }
 
 .page-header h1 {
@@ -88,8 +79,7 @@ a:link, a:visited {
 }
 
 
-
-.footer-section {
+.footer {
     /* clear: both; */
     background-color: #666666;
     /* min-width: 100%; */
@@ -101,6 +91,12 @@ a:link, a:visited {
     padding-top: 45px;
     font-size: 10px;
 }
+
+.text {
+    color: #ffffff;
+}
+
+
 
 input[type=text], select, textarea {
     width: 100%;
@@ -120,23 +116,12 @@ input[type=submit] {
     height:42px;
 }
 
-.column {
-    float: left;
-    position: relative;
-    margin-right: 30px;
-    
-}
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
 
 #puppy1, #puppy2, #puppy3, #puppy4 {
     width: 275px;
     height: 210px;
     margin-bottom: 30px;
+    position: relative;
 }
 
 #puppy5 {
@@ -145,10 +130,10 @@ input[type=submit] {
 }
 
 
-button {
+.col-6 button {
     position: absolute;
     bottom: 20%;
-    left: 0%;
+    left: 15px;
     width: 275px;
     height:  25%;
     background-color: #4aaaa5;
